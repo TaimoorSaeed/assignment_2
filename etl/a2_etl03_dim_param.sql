@@ -1,9 +1,9 @@
 -- Assignment 2 ETL: dim_param
--- HINT: Pull from stg_050.tb_param:
+-- HINT: Pull from stg_xxx.tb_param:
 --   param_name, param_code (optional), category, purpose, unit
 -- EXAMPLE SHAPE:
--- TRUNCATE TABLE dwh2_050.dim_param;
--- INSERT INTO dwh2_050.dim_param (...)
+-- TRUNCATE TABLE dwh2_xxx.dim_param;
+-- INSERT INTO dwh2_xxx.dim_param (...)
 -- SELECT p.paramname, NULL, p.category, p.purpose, p.unit FROM stg_xxx.tb_param p;
 
 -- Make A2 dwh2_xxx, stg2_xxx schemas the default for this session

@@ -7,7 +7,7 @@
 -- INSERT INTO dwh2_xxx.dim_timemonth (...)
 -- SELECT ... FROM months;
 
--- Make A2 dwh2_050, stg2_050 schemas the default for this session
+-- Make A2 dwh2_xxx, stg2_xxx schemas the default for this session
 SET search_path TO dwh2_050, stg2_050;
 
 -- =======================================

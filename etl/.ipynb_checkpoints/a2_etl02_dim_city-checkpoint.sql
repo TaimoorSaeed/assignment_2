@@ -1,9 +1,9 @@
 -- Assignment 2 ETL: dim_city
--- HINT: Join stg_050.tb_city to stg_050.tb_country to populate:
+-- HINT: Join stg_xxx.tb_city to stg_xxx.tb_country to populate:
 --   country_name, city_name, population, latitude, longitude
 -- Then, at the END, a separate UPDATE will set region_name via CASE
 
--- Make A2 dwh2_050, stg2_050 schemas the default for this session
+-- Make A2 dwh2_xxx, stg2_xxx schemas the default for this session
 SET search_path TO dwh2_050, stg2_050;
 
 -- =======================================

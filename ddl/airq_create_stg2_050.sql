@@ -1,4 +1,4 @@
--- Make the A2's stg2_050 schema the default for this session
+-- Make the A2's stg2_xxx schema the default for this session
 SET search_path TO stg2_050;
 
 -- -------------------------------
